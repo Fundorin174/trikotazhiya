@@ -80,3 +80,10 @@ h1, h2, h3, .font-serif {
   background: #E63946;
   color: #fff;
 }
+
+@media (max-width: 1050px) {
+  .custom-title-size {
+    font-size: 3rem !important;
+    line-height: 1.1;
+  }
+}

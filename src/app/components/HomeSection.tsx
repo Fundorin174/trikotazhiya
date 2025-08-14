@@ -6,8 +6,8 @@ const HomeSection = () => (
       Добро пожаловать в магазин трикотажных полотен
     </span>
     <h1
-      className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4 uppercase text-gray-900 font-serif hero-title py-12"
-      style={{ fontFamily: 'Playfair Display, serif' }}
+      className="text-7xl md:text-9xl font-extrabold tracking-tight mb-4 text-gray-900 hero-title py-12 custom-title-size"
+      style={{ fontFamily: 'Segoe Script, Playfair Display, cursive, serif' }}
     >
       Трикотажия
     </h1>
