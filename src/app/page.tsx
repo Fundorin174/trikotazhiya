@@ -9,6 +9,7 @@ import { fetchGalleryMedia } from "./lib/apiClient";
 
 export default async function HomePage() {
   const media = await fetchGalleryMedia();
+  
   return (
     <>
       <Header />
