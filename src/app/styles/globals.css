@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html {
+  scroll-behavior: smooth;
+}
+
+body {
   scroll-behavior: smooth;
 }
 
@@ -12,4 +18,15 @@ html {
 
 .text-tiffany {
   color: #15B4B1;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1.2s ease 0s both;
+}
+.animate-fade-in-delay {
+  animation: fadeIn 1.2s ease 0.5s both;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: none; }
 }

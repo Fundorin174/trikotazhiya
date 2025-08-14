@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import HomeSection from "./components/HomeSection";
 import GallerySection from "./components/GallerySection";
 import LocationSection from "./components/LocationSection";
 import ContactSection from "./components/ContactSection";
@@ -11,6 +12,7 @@ export default async function HomePage() {
   return (
     <>
       <Header />
+      <HomeSection />
       <main className="pt-20">
         <GallerySection media={media} />
         <LocationSection />

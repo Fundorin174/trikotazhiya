@@ -7,7 +7,7 @@ interface GallerySectionProps {
 
 const GallerySection: React.FC<GallerySectionProps> = ({ media }) => {
   return (
-    <section id="gallery" className="py-16">
+    <section id="gallery" className="py-24">
       <h2 className="text-3xl font-bold mb-8 text-center">Галерея</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {media.map(item => (

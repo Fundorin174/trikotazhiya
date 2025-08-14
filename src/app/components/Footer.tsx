@@ -4,8 +4,8 @@ import { FaTelegram, FaVk } from 'react-icons/fa';
 const Footer = () => (
   <footer className="bg-[#15B4B1] text-white py-6 mt-12">
     <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
-      <div className="flex items-center mb-4 md:mb-0">
-        <img src="/images/logo.svg" alt="Трикотажия" className="h-8 w-auto mr-2" />
+      <div className="flex items-center mb-4 md:mb-0 pl-4">
+        <img src="/images/logo.png" alt="Трикотажия" className="h-8 w-auto mr-2" />
       </div>
       <div className="text-center md:text-right">
         <div className="mb-2">
