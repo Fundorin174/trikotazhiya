@@ -33,14 +33,14 @@ const Header = () => {
           ))}
         </nav>
         {/* Бургер-меню справа, сдвигается влево при открытии меню */}
-          <button
-            className={`md:hidden text-2xl text-gray-800 focus:outline-none z-50 ml-auto transition-transform duration-300 ${menuOpen ? 'translate-x-[-16rem]' : ''}`}
-            style={{ position: 'fixed', top: 24, right: 16 }}
-            onClick={() => setMenuOpen(v => !v)}
-            aria-label={menuOpen ? 'Закрыть меню' : 'Открыть меню'}
-          >
-            {menuOpen ? <FaTimes /> : <FaBars />}
-          </button>
+        <button
+          className={`md:hidden text-2xl text-gray-800 focus:outline-none z-50 ml-auto transition-transform duration-300 ${menuOpen ? 'translate-x-[-16rem]' : ''}`}
+          style={{ position: 'fixed', top: 24, right: 16 }}
+          onClick={() => setMenuOpen(v => !v)}
+          aria-label={menuOpen ? 'Закрыть меню' : 'Открыть меню'}
+        >
+          {menuOpen ? <FaTimes /> : <FaBars />}
+        </button>
       </div>
       {/* Мобильное меню и подложка вне flex-контейнера */}
       {menuOpen && (
