@@ -1,3 +1,9 @@
+@media (max-width: 800px) {
+  .home-main-img {
+    width: 400px !important;
+  }
+}
+
 @import "tailwindcss";
 
 :root {
@@ -24,7 +30,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-html, body {
+
+html,
+body {
   min-height: 100vh;
   background: linear-gradient(135deg, #e6f8f8 0%, #f8fafc 100%);
   color: #222;
@@ -32,7 +40,10 @@ html, body {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, .font-serif {
+h1,
+h2,
+h3,
+.font-serif {
   font-family: 'Playfair Display', serif;
   color: #15B4B1;
 }
@@ -41,14 +52,17 @@ h1, h2, h3, .font-serif {
   background: linear-gradient(135deg, #15B4B1 0%, #e6f8f8 100%);
   color: #fff;
 }
+
 .section-black {
   background: linear-gradient(135deg, #e6f8f8 0%, #15B4B1 100%);
   color: #fff;
 }
+
 .section-gold {
   background: linear-gradient(135deg, #FFD700 0%, #fffbe6 100%);
   color: #222;
 }
+
 .section-red {
   background: linear-gradient(135deg, #fff0f0 0%, #E63946 100%);
   color: #fff;
@@ -59,6 +73,7 @@ h1, h2, h3, .font-serif {
   background: #15B4B1;
   color: #fff;
 }
+
 .btn-social:hover {
   background: #FFD700;
   color: #E63946;
@@ -72,10 +87,12 @@ h1, h2, h3, .font-serif {
   background: #15B4B1;
   color: #fff;
 }
+
 .bg-gold {
   background: #FFD700;
   color: #222;
 }
+
 .bg-red {
   background: #E63946;
   color: #fff;

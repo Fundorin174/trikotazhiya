@@ -14,6 +14,11 @@ const HomeSection = () => (
     <p className="text-xl md:text-2xl text-tiffany font-medium hero-slogan animate-fade-in-delay">
       Страна, где сшиваются мечты
     </p>
+    <img
+      src="/images/main.jpg"
+      alt="Трикотажия"
+      className="home-main-img mx-auto mt-12 w-[600px] h-auto max-w-full object-contain animate-fade-in-delay"
+    />
   </section>
 );
 
